@@ -18,6 +18,10 @@ fun AppNavigation() {
             LoginScreen(navController)
         }
 
+        composable(Screen.Register.route) {
+            RegisterScreen(navController)
+        }
+
         composable(Screen.Home.route) {
             HomeScreen(navController)
         }
@@ -35,6 +39,10 @@ fun AppNavigation() {
 
         composable(Screen.Profile.route) {
             ProfileScreen(navController)
+        }
+
+        composable(Screen.MyCourses.route) {
+            MyCoursesScreen(navController)
         }
     }
 }
