@@ -9,6 +9,7 @@ Gemini en Android Studio
 
 ### Antes
 ![Login antes](docs/login.jpeg)
+
 ![Registro antes](docs/registro.jpeg)
 
 ### Después
